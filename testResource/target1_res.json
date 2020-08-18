@@ -1,0 +1,3855 @@
+[2019-04-25T11:06:16.050-04:00] INFO		Creating Connection with Vizix
+[2019-04-25T11:06:16.051-04:00] INFO		Scenarios outline - test :with Location level area
+[2019-04-25T11:06:16.053-04:00] INFO		MD5) Start Query : /code/area/AREA_SOURCE
+[2019-04-25T11:06:16.053-04:00] INFO		MD5) Completed Query Converted : /code/area/AREA_SOURCE
+[2019-04-25T11:06:16.053-04:00] INFO		MD5) Start Query : /statemachine-api-configuration/rest/configuration/locations/code/area/AREA_SOURCE
+[2019-04-25T11:06:16.053-04:00] INFO		MD5) Completed Query Converted : /statemachine-api-configuration/rest/configuration/locations/code/area/AREA_SOURCE
+[2019-04-25T11:06:16.053-04:00] INFO		MD5) Start Query : 
+[2019-04-25T11:06:16.053-04:00] INFO		MD5) Completed Query Converted : 
+[2019-04-25T11:06:16.053-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:16.053-04:00] REQUEST		GET http://34.226.203.33:80/statemachine-api-configuration/rest/configuration/locations/code/area/AREA_SOURCE
+[2019-04-25T11:06:16.053-04:00] REQUEST BODY		
+[2019-04-25T11:06:16.053-04:00] REQUEST		Authentication : Authorization
+[2019-04-25T11:06:16.054-04:00] REQUEST		Authentication Value : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:16.179-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:16.179-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:16.305-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:16.305-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:16.305-04:00] RESPONSE BODY		
+{
+    "id":"1011",
+    "code":"AREA_SOURCE",
+    "name":"AREA_SOURCE",
+    "level":"area",
+    "type":"area",
+    "latitude":"43.208",
+    "longitude":"5.6076",
+    "sgln":"null",
+    "bizLocation":"urn:cxi:site:loc:AREA_SOURCE",
+    "hotspotZOffset":"0",
+    "attributes":"pr",
+    "addressLine1":"Zac Athelia III",
+    "addressLine2":"785 voie Antiope",
+    "addressLine3":"null",
+    "addressPostalCode":"13600",
+    "addressCity":"La Ciotat",
+    "addressState":"null",
+    "addressCountry":"France",
+    "hierarchy":{
+        "organizationId":"1",
+        "premiseId":"1009",
+        "floorId":"1010",
+        "areaId":"null",
+        "zoneId":"null"
+    },
+    "parent":"1010"
+}
+
+
+
+
+
+[2019-04-25T11:06:16.307-04:00] INFO		MD5) Start Query : id
+[2019-04-25T11:06:16.307-04:00] INFO		MD5) Completed Query Converted : id
+[2019-04-25T11:06:16.307-04:00] INFO		getting : id from json :
+{
+    "id":"1011",
+    "code":"AREA_SOURCE",
+    "name":"AREA_SOURCE",
+    "level":"area",
+    "type":"area",
+    "latitude":"43.208",
+    "longitude":"5.6076",
+    "sgln":"null",
+    "bizLocation":"urn:cxi:site:loc:AREA_SOURCE",
+    "hotspotZOffset":"0",
+    "attributes":"pr",
+    "addressLine1":"Zac Athelia III",
+    "addressLine2":"785 voie Antiope",
+    "addressLine3":"null",
+    "addressPostalCode":"13600",
+    "addressCity":"La Ciotat",
+    "addressState":"null",
+    "addressCountry":"France",
+    "hierarchy":{
+        "organizationId":"1",
+        "premiseId":"1009",
+        "floorId":"1010",
+        "areaId":"null",
+        "zoneId":"null"
+    },
+    "parent":"1010"
+}
+
+
+
+
+
+[2019-04-25T11:06:16.308-04:00] INFO		Value of id :1011
+[2019-04-25T11:06:16.308-04:00] INFO		Get a Json property value and save on variable : LocationIDSource value :1011
+[2019-04-25T11:06:16.309-04:00] INFO		MD5) Start Query : bizLocation
+[2019-04-25T11:06:16.309-04:00] INFO		MD5) Completed Query Converted : bizLocation
+[2019-04-25T11:06:16.309-04:00] INFO		getting : bizLocation from json :
+{
+    "id":"1011",
+    "code":"AREA_SOURCE",
+    "name":"AREA_SOURCE",
+    "level":"area",
+    "type":"area",
+    "latitude":"43.208",
+    "longitude":"5.6076",
+    "sgln":"null",
+    "bizLocation":"urn:cxi:site:loc:AREA_SOURCE",
+    "hotspotZOffset":"0",
+    "attributes":"pr",
+    "addressLine1":"Zac Athelia III",
+    "addressLine2":"785 voie Antiope",
+    "addressLine3":"null",
+    "addressPostalCode":"13600",
+    "addressCity":"La Ciotat",
+    "addressState":"null",
+    "addressCountry":"France",
+    "hierarchy":{
+        "organizationId":"1",
+        "premiseId":"1009",
+        "floorId":"1010",
+        "areaId":"null",
+        "zoneId":"null"
+    },
+    "parent":"1010"
+}
+
+
+
+
+
+[2019-04-25T11:06:16.309-04:00] INFO		Value of bizLocation :urn:cxi:site:loc:AREA_SOURCE
+[2019-04-25T11:06:16.310-04:00] INFO		Get a Json property value and save on variable : BizLocationSource value :urn:cxi:site:loc:AREA_SOURCE
+[2019-04-25T11:06:16.311-04:00] INFO		MD5) Start Query : /statemachine-api-configuration/rest/configuration/attributes/locations/1011
+[2019-04-25T11:06:16.311-04:00] INFO		MD5) Completed Query Converted : /statemachine-api-configuration/rest/configuration/attributes/locations/1011
+[2019-04-25T11:06:16.311-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:16.311-04:00] REQUEST		DELETE http://34.226.203.33:80/statemachine-api-configuration/rest/configuration/attributes/locations/1011
+[2019-04-25T11:06:16.311-04:00] REQUEST		DELETE 
+[2019-04-25T11:06:16.311-04:00] REQUEST		Header: Authorization : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:16.712-04:00] INFO		Response Code 204
+[2019-04-25T11:06:16.712-04:00] INFO		Response Message No Content
+[2019-04-25T11:06:16.714-04:00] INFO		MD5) Start Query : /auto_asn_on
+[2019-04-25T11:06:16.715-04:00] INFO		MD5) Completed Query Converted : /auto_asn_on
+[2019-04-25T11:06:16.715-04:00] INFO		MD5) Start Query : 
+[2019-04-25T11:06:16.715-04:00] INFO		MD5) Completed Query Converted : 
+[2019-04-25T11:06:16.715-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:16.839-04:00] REQUEST		PUT http://34.226.203.33:80/statemachine-api-configuration/rest/configuration/attributes/auto_asn_on
+[2019-04-25T11:06:16.839-04:00] REQUEST BODY		
+[2019-04-25T11:06:16.839-04:00] REQUEST		Header: Authorization : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:16.839-04:00] RESPONSE		Response Code :204
+[2019-04-25T11:06:16.839-04:00] RESPONSE		Response Message :No Content
+[2019-04-25T11:06:16.839-04:00] RESPONSE BODY		
+[2019-04-25T11:06:16.842-04:00] INFO		MD5) Start Query : /PR
+[2019-04-25T11:06:16.842-04:00] INFO		MD5) Completed Query Converted : /PR
+[2019-04-25T11:06:16.842-04:00] INFO		MD5) Start Query : 
+[2019-04-25T11:06:16.842-04:00] INFO		MD5) Completed Query Converted : 
+[2019-04-25T11:06:16.842-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:16.969-04:00] REQUEST		PUT http://34.226.203.33:80/statemachine-api-configuration/rest/configuration/attributes/PR
+[2019-04-25T11:06:16.969-04:00] REQUEST BODY		
+[2019-04-25T11:06:16.969-04:00] REQUEST		Header: Authorization : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:16.969-04:00] RESPONSE		Response Code :204
+[2019-04-25T11:06:16.969-04:00] RESPONSE		Response Message :No Content
+[2019-04-25T11:06:16.969-04:00] RESPONSE BODY		
+[2019-04-25T11:06:16.971-04:00] INFO		MD5) Start Query : /auto_asn_on/locations/1011
+[2019-04-25T11:06:16.971-04:00] INFO		MD5) Completed Query Converted : /auto_asn_on/locations/1011
+[2019-04-25T11:06:16.971-04:00] INFO		MD5) Start Query : 
+[2019-04-25T11:06:16.971-04:00] INFO		MD5) Completed Query Converted : 
+[2019-04-25T11:06:16.971-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:17.397-04:00] REQUEST		PUT http://34.226.203.33:80/statemachine-api-configuration/rest/configuration/attributes/auto_asn_on/locations/1011
+[2019-04-25T11:06:17.397-04:00] REQUEST BODY		
+[2019-04-25T11:06:17.397-04:00] REQUEST		Header: Authorization : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:17.397-04:00] RESPONSE		Response Code :204
+[2019-04-25T11:06:17.397-04:00] RESPONSE		Response Message :No Content
+[2019-04-25T11:06:17.397-04:00] RESPONSE BODY		
+[2019-04-25T11:06:17.400-04:00] INFO		MD5) Start Query : /pr/locations/1011
+[2019-04-25T11:06:17.400-04:00] INFO		MD5) Completed Query Converted : /pr/locations/1011
+[2019-04-25T11:06:17.400-04:00] INFO		MD5) Start Query : 
+[2019-04-25T11:06:17.400-04:00] INFO		MD5) Completed Query Converted : 
+[2019-04-25T11:06:17.400-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:17.859-04:00] REQUEST		PUT http://34.226.203.33:80/statemachine-api-configuration/rest/configuration/attributes/pr/locations/1011
+[2019-04-25T11:06:17.859-04:00] REQUEST BODY		
+[2019-04-25T11:06:17.859-04:00] REQUEST		Header: Authorization : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:17.859-04:00] RESPONSE		Response Code :204
+[2019-04-25T11:06:17.859-04:00] RESPONSE		Response Message :No Content
+[2019-04-25T11:06:17.859-04:00] RESPONSE BODY		
+[2019-04-25T11:06:20.863-04:00] INFO		MD5) Start Query : /code/area/AREA_DESTINATION
+[2019-04-25T11:06:20.863-04:00] INFO		MD5) Completed Query Converted : /code/area/AREA_DESTINATION
+[2019-04-25T11:06:20.863-04:00] INFO		MD5) Start Query : /statemachine-api-configuration/rest/configuration/locations/code/area/AREA_DESTINATION
+[2019-04-25T11:06:20.863-04:00] INFO		MD5) Completed Query Converted : /statemachine-api-configuration/rest/configuration/locations/code/area/AREA_DESTINATION
+[2019-04-25T11:06:20.863-04:00] INFO		MD5) Start Query : 
+[2019-04-25T11:06:20.863-04:00] INFO		MD5) Completed Query Converted : 
+[2019-04-25T11:06:20.863-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:20.864-04:00] REQUEST		GET http://34.226.203.33:80/statemachine-api-configuration/rest/configuration/locations/code/area/AREA_DESTINATION
+[2019-04-25T11:06:20.864-04:00] REQUEST BODY		
+[2019-04-25T11:06:20.864-04:00] REQUEST		Authentication : Authorization
+[2019-04-25T11:06:20.864-04:00] REQUEST		Authentication Value : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:20.995-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:20.995-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:21.128-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:21.128-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:21.128-04:00] RESPONSE BODY		
+{
+    "id":"1007",
+    "code":"AREA_DESTINATION",
+    "name":"AREA_DESTINATION",
+    "level":"area",
+    "type":"area",
+    "latitude":"43.208",
+    "longitude":"5.6076",
+    "sgln":"null",
+    "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+    "hotspotZOffset":"0",
+    "attributes":"null",
+    "addressLine1":"Zac Athelia III",
+    "addressLine2":"785 voie Antiope",
+    "addressLine3":"null",
+    "addressPostalCode":"13600",
+    "addressCity":"La Ciotat",
+    "addressState":"null",
+    "addressCountry":"France",
+    "hierarchy":{
+        "organizationId":"1",
+        "premiseId":"1005",
+        "floorId":"1006",
+        "areaId":"null",
+        "zoneId":"null"
+    },
+    "parent":"1006"
+}
+
+
+
+
+
+[2019-04-25T11:06:21.131-04:00] INFO		MD5) Start Query : id
+[2019-04-25T11:06:21.131-04:00] INFO		MD5) Completed Query Converted : id
+[2019-04-25T11:06:21.131-04:00] INFO		getting : id from json :
+{
+    "id":"1007",
+    "code":"AREA_DESTINATION",
+    "name":"AREA_DESTINATION",
+    "level":"area",
+    "type":"area",
+    "latitude":"43.208",
+    "longitude":"5.6076",
+    "sgln":"null",
+    "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+    "hotspotZOffset":"0",
+    "attributes":"null",
+    "addressLine1":"Zac Athelia III",
+    "addressLine2":"785 voie Antiope",
+    "addressLine3":"null",
+    "addressPostalCode":"13600",
+    "addressCity":"La Ciotat",
+    "addressState":"null",
+    "addressCountry":"France",
+    "hierarchy":{
+        "organizationId":"1",
+        "premiseId":"1005",
+        "floorId":"1006",
+        "areaId":"null",
+        "zoneId":"null"
+    },
+    "parent":"1006"
+}
+
+
+
+
+
+[2019-04-25T11:06:21.131-04:00] INFO		Value of id :1007
+[2019-04-25T11:06:21.131-04:00] INFO		Get a Json property value and save on variable : LocationIDDestination value :1007
+[2019-04-25T11:06:21.132-04:00] INFO		MD5) Start Query : bizLocation
+[2019-04-25T11:06:21.132-04:00] INFO		MD5) Completed Query Converted : bizLocation
+[2019-04-25T11:06:21.132-04:00] INFO		getting : bizLocation from json :
+{
+    "id":"1007",
+    "code":"AREA_DESTINATION",
+    "name":"AREA_DESTINATION",
+    "level":"area",
+    "type":"area",
+    "latitude":"43.208",
+    "longitude":"5.6076",
+    "sgln":"null",
+    "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+    "hotspotZOffset":"0",
+    "attributes":"null",
+    "addressLine1":"Zac Athelia III",
+    "addressLine2":"785 voie Antiope",
+    "addressLine3":"null",
+    "addressPostalCode":"13600",
+    "addressCity":"La Ciotat",
+    "addressState":"null",
+    "addressCountry":"France",
+    "hierarchy":{
+        "organizationId":"1",
+        "premiseId":"1005",
+        "floorId":"1006",
+        "areaId":"null",
+        "zoneId":"null"
+    },
+    "parent":"1006"
+}
+
+
+
+
+
+[2019-04-25T11:06:21.132-04:00] INFO		Value of bizLocation :urn:cxi:site:loc:AREA_DESTINATION
+[2019-04-25T11:06:21.132-04:00] INFO		Get a Json property value and save on variable : BizLocationDestination value :urn:cxi:site:loc:AREA_DESTINATION
+[2019-04-25T11:06:21.133-04:00] INFO		MD5) Start Query : /statemachine-api-configuration/rest/configuration/attributes/locations/1007
+[2019-04-25T11:06:21.133-04:00] INFO		MD5) Completed Query Converted : /statemachine-api-configuration/rest/configuration/attributes/locations/1007
+[2019-04-25T11:06:21.134-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:21.134-04:00] REQUEST		DELETE http://34.226.203.33:80/statemachine-api-configuration/rest/configuration/attributes/locations/1007
+[2019-04-25T11:06:21.134-04:00] REQUEST		DELETE 
+[2019-04-25T11:06:21.134-04:00] REQUEST		Header: Authorization : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:21.579-04:00] INFO		Response Code 204
+[2019-04-25T11:06:21.579-04:00] INFO		Response Message No Content
+[2019-04-25T11:06:21.581-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:21.581-04:00] REQUEST		GET http://34.226.203.33:80/product-api/rest/products/03663328210345
+[2019-04-25T11:06:21.581-04:00] REQUEST BODY		
+[2019-04-25T11:06:21.581-04:00] REQUEST		Authentication : Authorization
+[2019-04-25T11:06:21.581-04:00] REQUEST		Authentication Value : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:21.707-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:21.707-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:21.849-04:00] RESPONSE		Response Code : 404
+[2019-04-25T11:06:21.849-04:00] RESPONSE		Response Message : Not Found
+[2019-04-25T11:06:21.849-04:00] RESPONSE BODY		
+{
+    "code":"404",
+    "message":"No products for gtin: 03663328210345"
+}
+
+
+
+
+
+[2019-04-25T11:06:21.849-04:00] INFO		**** GTIN *** : 03663328210345
+[2019-04-25T11:06:21.849-04:00] INFO		Obtain random gtin value: 03663328210345 for product
+[2019-04-25T11:06:21.850-04:00] INFO		Generate random uuid: 222336c1-cc55-49ca-868d-9a0b81d1a719
+[2019-04-25T11:06:21.850-04:00] INFO		Obtain random uuid value: dp-auto-test-222336c1-cc55-49ca-868d-9a0b81d1a719 for transaction
+[2019-04-25T11:06:21.851-04:00] INFO		Get a random value and save on this variable , key : FILTER_EXTENTION value :ZAUTOSHOPCX124143698ECJH
+[2019-04-25T11:06:21.853-04:00] INFO		MD5) Start Query : {
+    "extensions": 
+{
+    "ZAUTOSHOPCX124143698ECJH":"ZAUTOSHOPCX124143698ECJH"
+}
+
+
+
+
+
+    "gtin": "03663328210345",
+    "displayGtin": "03663328210345",
+    "productCode": "pC_03663328210345",
+    "vpn": "vpn_03663328210345",
+    "productLabelShort": "Sandales Coursives 85mm",
+    "productLabelLong": "MARTEL_14-CL-PINK",
+    "sizeCode": "SC-03663328210345",
+    "modelCode": "MC-03663328210345",
+    "sizeLabel": "SC-03663328210345",
+    "colorCode": "BL-03663328210345",
+    "colorLabel": "BL-03663328210345",
+    "seasonCode": "spring",
+    "prices": [{
+        "value": 200,
+        "currency": "EUR",
+        "location": "fra"
+      }]
+}
+[2019-04-25T11:06:21.853-04:00] INFO		MD5) Completed Query Converted : {
+    "extensions": 
+{
+    "ZAUTOSHOPCX124143698ECJH":"ZAUTOSHOPCX124143698ECJH"
+}
+
+
+
+
+
+    "gtin": "03663328210345",
+    "displayGtin": "03663328210345",
+    "productCode": "pC_03663328210345",
+    "vpn": "vpn_03663328210345",
+    "productLabelShort": "Sandales Coursives 85mm",
+    "productLabelLong": "MARTEL_14-CL-PINK",
+    "sizeCode": "SC-03663328210345",
+    "modelCode": "MC-03663328210345",
+    "sizeLabel": "SC-03663328210345",
+    "colorCode": "BL-03663328210345",
+    "colorLabel": "BL-03663328210345",
+    "seasonCode": "spring",
+    "prices": [{
+        "value": 200,
+        "currency": "EUR",
+        "location": "fra"
+      }]
+}
+[2019-04-25T11:06:21.853-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:22.291-04:00] REQUEST		PUT http://34.226.203.33:80/product-api/rest/products/03663328210345
+[2019-04-25T11:06:22.291-04:00] REQUEST BODY		{
+    "extensions": 
+{
+    "ZAUTOSHOPCX124143698ECJH":"ZAUTOSHOPCX124143698ECJH"
+}
+
+
+
+
+
+    "gtin": "03663328210345",
+    "displayGtin": "03663328210345",
+    "productCode": "pC_03663328210345",
+    "vpn": "vpn_03663328210345",
+    "productLabelShort": "Sandales Coursives 85mm",
+    "productLabelLong": "MARTEL_14-CL-PINK",
+    "sizeCode": "SC-03663328210345",
+    "modelCode": "MC-03663328210345",
+    "sizeLabel": "SC-03663328210345",
+    "colorCode": "BL-03663328210345",
+    "colorLabel": "BL-03663328210345",
+    "seasonCode": "spring",
+    "prices": [{
+        "value": 200,
+        "currency": "EUR",
+        "location": "fra"
+      }]
+}
+[2019-04-25T11:06:22.291-04:00] REQUEST		Header: Authorization : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:22.292-04:00] RESPONSE		Response Code :201
+[2019-04-25T11:06:22.292-04:00] RESPONSE		Response Message :Created
+[2019-04-25T11:06:22.292-04:00] RESPONSE BODY		
+[2019-04-25T11:06:22.294-04:00] INFO		MD5) Start Query : 03663328210345
+[2019-04-25T11:06:22.294-04:00] INFO		MD5) Completed Query Converted : 03663328210345
+[2019-04-25T11:06:22.296-04:00] INFO		MD5) Start Query : 03663328210345
+[2019-04-25T11:06:22.296-04:00] INFO		MD5) Completed Query Converted : 03663328210345
+[2019-04-25T11:06:22.298-04:00] INFO		Get a current timestamp and save on this variable , key : ISOZONEFirstEventDate value :1556204782298
+[2019-04-25T11:06:22.300-04:00] INFO		MD5) Start Query : 
+[2019-04-25T11:06:22.300-04:00] INFO		MD5) Completed Query Converted : 
+[2019-04-25T11:06:22.301-04:00] INFO		MD5) Start Query : /statemachine-epcis-events-input-rest/rest/events/publish/amqp
+[2019-04-25T11:06:22.301-04:00] INFO		MD5) Completed Query Converted : /statemachine-epcis-events-input-rest/rest/events/publish/amqp
+[2019-04-25T11:06:22.302-04:00] INFO		MD5) Start Query : {
+  "events": [
+    {
+      "type": "ObjectEvent",
+      "eventTime": "2019-04-25T15:06:22.298+0000",
+      "disposition": "urn:epcglobal:cbv:disp:in_transit",
+      "bizStep": "urn:epcglobal:cbv:bizstep:packing",
+      "readPoint": "urn:cxi:site:loc:AREA_DESTINATION",
+      "bizLocation": "urn:cxi:site:loc:AREA_DESTINATION",
+      "recordTime": "2019-04-25T15:06:22.298+0000",
+      "epcList": [
+        {
+          "epc": "urn:epc:id:sgtin:3663328.021034.1"
+        },
+        {
+          "epc": "urn:epc:id:sgtin:3663328.021034.2"
+        }],
+      "action": "ADD",
+      "extension": {
+        "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+      },
+      "bizTransList": [
+        {
+          "value": "dp-auto-test-222336c1-cc55-49ca-868d-9a0b81d1a719"
+        }]
+    }]
+}
+[2019-04-25T11:06:22.302-04:00] INFO		MD5) Completed Query Converted : {
+  "events": [
+    {
+      "type": "ObjectEvent",
+      "eventTime": "2019-04-25T15:06:22.298+0000",
+      "disposition": "urn:epcglobal:cbv:disp:in_transit",
+      "bizStep": "urn:epcglobal:cbv:bizstep:packing",
+      "readPoint": "urn:cxi:site:loc:AREA_DESTINATION",
+      "bizLocation": "urn:cxi:site:loc:AREA_DESTINATION",
+      "recordTime": "2019-04-25T15:06:22.298+0000",
+      "epcList": [
+        {
+          "epc": "urn:epc:id:sgtin:3663328.021034.1"
+        },
+        {
+          "epc": "urn:epc:id:sgtin:3663328.021034.2"
+        }],
+      "action": "ADD",
+      "extension": {
+        "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+      },
+      "bizTransList": [
+        {
+          "value": "dp-auto-test-222336c1-cc55-49ca-868d-9a0b81d1a719"
+        }]
+    }]
+}
+[2019-04-25T11:06:22.302-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:22.478-04:00] REQUEST		POST http://34.226.203.33:80/statemachine-epcis-events-input-rest/rest/events/publish/amqp
+[2019-04-25T11:06:22.478-04:00] REQUEST BODY		{
+  "events": [
+    {
+      "type": "ObjectEvent",
+      "eventTime": "2019-04-25T15:06:22.298+0000",
+      "disposition": "urn:epcglobal:cbv:disp:in_transit",
+      "bizStep": "urn:epcglobal:cbv:bizstep:packing",
+      "readPoint": "urn:cxi:site:loc:AREA_DESTINATION",
+      "bizLocation": "urn:cxi:site:loc:AREA_DESTINATION",
+      "recordTime": "2019-04-25T15:06:22.298+0000",
+      "epcList": [
+        {
+          "epc": "urn:epc:id:sgtin:3663328.021034.1"
+        },
+        {
+          "epc": "urn:epc:id:sgtin:3663328.021034.2"
+        }],
+      "action": "ADD",
+      "extension": {
+        "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+      },
+      "bizTransList": [
+        {
+          "value": "dp-auto-test-222336c1-cc55-49ca-868d-9a0b81d1a719"
+        }]
+    }]
+}
+[2019-04-25T11:06:22.478-04:00] REQUEST		Header: Authorization : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:22.478-04:00] RESPONSE		Response Code 204
+[2019-04-25T11:06:22.478-04:00] RESPONSE		Response Message No Content
+[2019-04-25T11:06:22.478-04:00] RESPONSE BODY		
+[2019-04-25T11:06:27.482-04:00] INFO		MD5) Start Query : /gtins
+[2019-04-25T11:06:27.482-04:00] INFO		MD5) Completed Query Converted : /gtins
+[2019-04-25T11:06:27.483-04:00] INFO		MD5) Start Query : /statemachine-api-status-rest/rest/statuses/gtins
+[2019-04-25T11:06:27.483-04:00] INFO		MD5) Completed Query Converted : /statemachine-api-status-rest/rest/statuses/gtins
+[2019-04-25T11:06:27.483-04:00] INFO		MD5) Start Query : 
+{
+    "query":[
+        "03663328210345"
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:27.483-04:00] INFO		MD5) Completed Query Converted : 
+{
+    "query":[
+        "03663328210345"
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:27.483-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:27.615-04:00] REQUEST		POST http://34.226.203.33:80/statemachine-api-status-rest/rest/statuses/gtins
+[2019-04-25T11:06:27.615-04:00] REQUEST BODY		
+{
+    "query":[
+        "03663328210345"
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:27.615-04:00] REQUEST		Header: Authorization : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:27.616-04:00] RESPONSE		Response Code 200
+[2019-04-25T11:06:27.616-04:00] RESPONSE		Response Message OK
+[2019-04-25T11:06:27.616-04:00] RESPONSE BODY		[
+{
+    "epc":"urn:epc:id:sgtin:3663328.021034.2",
+    "gtin":"03663328210345",
+    "premise":"PREMISE_DESTINATION",
+    "objectType":"ObjectEvent",
+    "disposition":"urn:epcglobal:cbv:disp:in_transit",
+    "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+    "readPoint":"urn:cxi:site:loc:FLOOR_DESTINATION",
+    "bizLocation":"urn:cxi:site:loc:FLOOR_DESTINATION",
+    "action":"ADD",
+    "eventTime":"1556203376000",
+    "recordTime":"1556203376718",
+    "firstSeenTime":"1556203376795",
+    "parameters":{
+        "Current_Location":"urn:cxi:site:loc:FLOOR_SOURCE"
+    }
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:27.619-04:00] INFO		MD5) Start Query : [{
+  "epc":"urn:epc:id:sgtin:3663328.021034.1",
+  "gtin":"03663328210345",
+  "objectType":"ObjectEvent",
+  "disposition":"urn:epcglobal:cbv:disp:in_transit",
+  "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+  "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+  "action":"ADD",
+  "parameters":{
+    "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+  }
+},
+{
+  "epc":"urn:epc:id:sgtin:3663328.021034.2",
+  "gtin":"03663328210345",
+  "objectType":"ObjectEvent",
+  "disposition":"urn:epcglobal:cbv:disp:in_transit",
+  "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+  "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+  "action":"ADD",
+  "parameters":{
+    "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+  }
+}]
+[2019-04-25T11:06:27.619-04:00] INFO		MD5) Completed Query Converted : [{
+  "epc":"urn:epc:id:sgtin:3663328.021034.1",
+  "gtin":"03663328210345",
+  "objectType":"ObjectEvent",
+  "disposition":"urn:epcglobal:cbv:disp:in_transit",
+  "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+  "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+  "action":"ADD",
+  "parameters":{
+    "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+  }
+},
+{
+  "epc":"urn:epc:id:sgtin:3663328.021034.2",
+  "gtin":"03663328210345",
+  "objectType":"ObjectEvent",
+  "disposition":"urn:epcglobal:cbv:disp:in_transit",
+  "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+  "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+  "action":"ADD",
+  "parameters":{
+    "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+  }
+}]
+[2019-04-25T11:06:27.619-04:00] ASSERT		Comparing two Jsons
+org.junit.ComparisonFailure:
+***** The next jsons have different values ***** 
+ -> Comparing Property, Value,  Property : 'bizLocation' Expected Result : 'urn:cxi:site:loc:AREA_DESTINATION' and Actual Result : 'urn:cxi:site:loc:FLOOR_DESTINATION'
+ -> Comparing Property, Value,  Property : 'Current_Location' Expected Result : 'urn:cxi:site:loc:AREA_SOURCE' and Actual Result : 'urn:cxi:site:loc:FLOOR_SOURCE'
+ -> Comparing Object, Expected Result : '
+{
+    "Current_Location":"urn:cxi:site:loc:AREA_SOURCE"
+}
+
+
+
+
+
+   and Actual Result : '
+{
+    "Current_Location":"urn:cxi:site:loc:FLOOR_SOURCE"
+}
+
+
+
+
+
+ -> Comparing Property 'parameters, Object Type, Expected Result : '
+{
+    "Current_Location":"urn:cxi:site:loc:AREA_SOURCE"
+}
+
+
+
+
+
+   and Actual Result : '
+{
+    "Current_Location":"urn:cxi:site:loc:FLOOR_SOURCE"
+}
+
+
+
+
+
+ -> Comparing Object, Expected Result : '
+{
+    "epc":"urn:epc:id:sgtin:3663328.021034.2",
+    "gtin":"03663328210345",
+    "objectType":"ObjectEvent",
+    "disposition":"urn:epcglobal:cbv:disp:in_transit",
+    "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+    "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+    "action":"ADD",
+    "parameters":{
+        "Current_Location":"urn:cxi:site:loc:AREA_SOURCE"
+    }
+    
+}
+
+
+
+
+
+   and Actual Result : '
+{
+    "epc":"urn:epc:id:sgtin:3663328.021034.2",
+    "gtin":"03663328210345",
+    "premise":"PREMISE_DESTINATION",
+    "objectType":"ObjectEvent",
+    "disposition":"urn:epcglobal:cbv:disp:in_transit",
+    "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+    "readPoint":"urn:cxi:site:loc:FLOOR_DESTINATION",
+    "bizLocation":"urn:cxi:site:loc:FLOOR_DESTINATION",
+    "action":"ADD",
+    "eventTime":"1556203376000",
+    "recordTime":"1556203376718",
+    "firstSeenTime":"1556203376795",
+    "parameters":{
+        "Current_Location":"urn:cxi:site:loc:FLOOR_SOURCE"
+    }
+    
+}
+
+
+
+
+
+ -> Comparing Array, Expected Result : '[{
+  "epc":"urn:epc:id:sgtin:3663328.021034.1",
+  "gtin":"03663328210345",
+  "objectType":"ObjectEvent",
+  "disposition":"urn:epcglobal:cbv:disp:in_transit",
+  "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+  "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+  "action":"ADD",
+  "parameters":{
+    "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+  }
+},
+{
+  "epc":"urn:epc:id:sgtin:3663328.021034.2",
+  "gtin":"03663328210345",
+  "objectType":"ObjectEvent",
+  "disposition":"urn:epcglobal:cbv:disp:in_transit",
+  "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+  "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+  "action":"ADD",
+  "parameters":{
+    "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+  }
+}]'
+   and Actual Result : '[
+{
+    "epc":"urn:epc:id:sgtin:3663328.021034.2",
+    "gtin":"03663328210345",
+    "premise":"PREMISE_DESTINATION",
+    "objectType":"ObjectEvent",
+    "disposition":"urn:epcglobal:cbv:disp:in_transit",
+    "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+    "readPoint":"urn:cxi:site:loc:FLOOR_DESTINATION",
+    "bizLocation":"urn:cxi:site:loc:FLOOR_DESTINATION",
+    "action":"ADD",
+    "eventTime":"1556203376000",
+    "recordTime":"1556203376718",
+    "firstSeenTime":"1556203376795",
+    "parameters":{
+        "Current_Location":"urn:cxi:site:loc:FLOOR_SOURCE"
+    }
+    
+}
+
+
+
+
+
+********************************************
+ Complete - Actual Json Body : 
+[
+{
+    "epc":"urn:epc:id:sgtin:3663328.021034.2",
+    "gtin":"03663328210345",
+    "premise":"PREMISE_DESTINATION",
+    "objectType":"ObjectEvent",
+    "disposition":"urn:epcglobal:cbv:disp:in_transit",
+    "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+    "readPoint":"urn:cxi:site:loc:FLOOR_DESTINATION",
+    "bizLocation":"urn:cxi:site:loc:FLOOR_DESTINATION",
+    "action":"ADD",
+    "eventTime":"1556203376000",
+    "recordTime":"1556203376718",
+    "firstSeenTime":"1556203376795",
+    "parameters":{
+        "Current_Location":"urn:cxi:site:loc:FLOOR_SOURCE"
+    }
+    
+}
+
+
+
+
+
+ *********************************************
+********************************************
+ Complete - Expected Json Body : 
+[{
+  "epc":"urn:epc:id:sgtin:3663328.021034.1",
+  "gtin":"03663328210345",
+  "objectType":"ObjectEvent",
+  "disposition":"urn:epcglobal:cbv:disp:in_transit",
+  "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+  "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+  "action":"ADD",
+  "parameters":{
+    "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+  }
+},
+{
+  "epc":"urn:epc:id:sgtin:3663328.021034.2",
+  "gtin":"03663328210345",
+  "objectType":"ObjectEvent",
+  "disposition":"urn:epcglobal:cbv:disp:in_transit",
+  "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+  "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+  "action":"ADD",
+  "parameters":{
+    "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+  }
+}]
+ *******************************************
+All Information Request : 
+Request Url :
+
+
+
+
+POST http://34.226.203.33:80/statemachine-api-status-rest/rest/statuses/gtins
+Request Body:
+
+{
+    "query":[
+        "03663328210345"
+    ]
+    
+}
+
+
+
+
+
+Response Body:
+[
+{
+    "epc":"urn:epc:id:sgtin:3663328.021034.2",
+    "gtin":"03663328210345",
+    "premise":"PREMISE_DESTINATION",
+    "objectType":"ObjectEvent",
+    "disposition":"urn:epcglobal:cbv:disp:in_transit",
+    "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+    "readPoint":"urn:cxi:site:loc:FLOOR_DESTINATION",
+    "bizLocation":"urn:cxi:site:loc:FLOOR_DESTINATION",
+    "action":"ADD",
+    "eventTime":"1556203376000",
+    "recordTime":"1556203376718",
+    "firstSeenTime":"1556203376795",
+    "parameters":{
+        "Current_Location":"urn:cxi:site:loc:FLOOR_SOURCE"
+    }
+    
+}
+
+
+
+
+
+Response Code:
+200
+ expected:<[{[
+  "epc":"urn:epc:id:sgtin:3663328.021034.1",
+  "gtin":"03663328210345",
+  "objectType":"ObjectEvent",
+  "disposition":"urn:epcglobal:cbv:disp:in_transit",
+  "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+  "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+  "action":"ADD",
+  "parameters":{
+    "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+  }
+},
+{
+  "epc":"urn:epc:id:sgtin:3663328.021034.2",
+  "gtin":"03663328210345",
+  "objectType":"ObjectEvent",
+  "disposition":"urn:epcglobal:cbv:disp:in_transit",
+  "bizStep":"urn:epcglobal:cbv:bizstep:packing",
+  "bizLocation":"urn:cxi:site:loc:AREA_DESTINATION",
+  "action":"ADD",
+  "parameters":{
+    "Current_Location": "urn:cxi:site:loc:AREA_SOURCE"
+  }
+]}]> but was:<[{["epc":"urn:epc:id:sgtin:3663328.021034.2","gtin":"03663328210345","premise":"PREMISE_DESTINATION","objectType":"ObjectEvent","disposition":"urn:epcglobal:cbv:disp:in_transit","bizStep":"urn:epcglobal:cbv:bizstep:packing","readPoint":"urn:cxi:site:loc:FLOOR_DESTINATION","bizLocation":"urn:cxi:site:loc:FLOOR_DESTINATION","action":"ADD","eventTime":1556203376000,"recordTime":1556203376718,"firstSeenTime":1556203376795,"parameters":{"Current_Location":"urn:cxi:site:loc:FLOOR_SOURCE"}},{"epc":"urn:epc:id:sgtin:3663328.021034.1","gtin":"03663328210345","premise":"PREMISE_DESTINATION","objectType":"ObjectEvent","disposition":"urn:epcglobal:cbv:disp:in_transit","bizStep":"urn:epcglobal:cbv:bizstep:packing","readPoint":"urn:cxi:site:loc:AREA_DESTINATION","bizLocation":"urn:cxi:site:loc:AREA_DESTINATION","action":"ADD","eventTime":1556204782000,"recordTime":1556204782406,"firstSeenTime":1556203376791,"parameters":{"Current_Location":"urn:cxi:site:loc:AREA_SOURCE"}]}]>
+  at org.junit.Assert.assertEquals(Assert.java:115)
+  at common.CustomAssert.areEqual(CustomAssert.java:44)
+  at gradle.cucumber.StepDefinitionExpected.I_expect_response_JSON_body_equal_to(StepDefinitionExpected.java:98)
+  at ✽.And I expect response JSON body equal to(/home/augusto/vizix/vizix/vizix-qa-automation/src/test/resources/shopCX/statusApi/status_post_semi_final_status_PR_asn_on_no_currentLocation.feature:119)
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+[2019-04-25T11:06:27.653-04:00] HOOKS		[@StatusAPI, @ShopCX, @SemiFinalStatus]
+[2019-04-25T11:06:27.653-04:00] HOOKS		@SHOPCX
+[2019-04-25T11:06:27.653-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+[2019-04-25T11:06:27.653-04:00] INFO		Kill Instance Authentication
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[2019-04-25T11:06:27.653-04:00] HOOKS		*********************** Cleaning Environment: true***********************
+[2019-04-25T11:06:27.653-04:00] HOOKS		****** REMOVE -------> THINGS_GET
+[2019-04-25T11:06:27.653-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FCATEGORY
+[2019-04-25T11:06:27.653-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FCATEGORY
+[2019-04-25T11:06:27.653-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:27.653-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+Skipped step
+
+
+
+
+[2019-04-25T11:06:27.870-04:00] REQUEST		POST http://34.226.203.33:80/riot-core-services/api/user/login
+[2019-04-25T11:06:27.870-04:00] REQUEST BODY		
+{
+    "username":"root",
+    "password":"Control123!"
+}
+
+
+
+
+
+[2019-04-25T11:06:27.870-04:00] REQUEST		Header: token : 
+[2019-04-25T11:06:27.988-04:00] RESPONSE		Response Code 200
+[2019-04-25T11:06:27.988-04:00] RESPONSE		Response Message OK
+ERROR: String index out of range: 136672
+
+
+
+
+[2019-04-25T11:06:31.018-04:00] INFO		Getting the token : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+
+
+
+
+[2019-04-25T11:06:31.019-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FCATEGORY&only=_id
+[2019-04-25T11:06:31.019-04:00] REQUEST BODY		
+[2019-04-25T11:06:31.019-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:31.019-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:31.144-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:31.145-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:31.271-04:00] RESPONSE		Response Code : 400
+[2019-04-25T11:06:31.271-04:00] RESPONSE		Response Message : Bad Request
+[2019-04-25T11:06:31.271-04:00] RESPONSE BODY		
+{
+    "message":"Thing Type cannot be determined from 'fullyQualifiedThingTypeCode' param."
+}
+
+
+
+
+
+[2019-04-25T11:06:31.271-04:00] INFO		getting : total from json :
+{
+    "message":"Thing Type cannot be determined from 'fullyQualifiedThingTypeCode' param."
+}
+
+
+
+
+
+[2019-04-25T11:06:31.271-04:00] ERROR		The response is empty
+[2019-04-25T11:06:31.271-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:31.272-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FREFERENCELIST 
+[2019-04-25T11:06:31.272-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FREFERENCELIST 
+[2019-04-25T11:06:31.272-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:31.272-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:31.272-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:31.272-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:31.272-04:00] REQUEST BODY		
+[2019-04-25T11:06:31.272-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:31.272-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:31.401-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:31.401-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:31.542-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:31.542-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:31.542-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:31.543-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:31.543-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FREFERENCELIST%20&only=_id
+[2019-04-25T11:06:31.543-04:00] REQUEST BODY		
+[2019-04-25T11:06:31.543-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:31.543-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:31.833-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:31.834-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:32.099-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:32.099-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:32.099-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:32.099-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:32.099-04:00] INFO		Value of total :0
+[2019-04-25T11:06:32.099-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:32.099-04:00] INFO		Value of results :
+[2019-04-25T11:06:32.099-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:32.099-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FCONTENT
+[2019-04-25T11:06:32.099-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FCONTENT
+[2019-04-25T11:06:32.099-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:32.099-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:32.100-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:32.100-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:32.100-04:00] REQUEST BODY		
+[2019-04-25T11:06:32.100-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:32.100-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:32.228-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:32.228-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:32.357-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:32.357-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:32.357-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:32.358-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:32.358-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FCONTENT&only=_id
+[2019-04-25T11:06:32.358-04:00] REQUEST BODY		
+[2019-04-25T11:06:32.358-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:32.358-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:32.644-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:32.644-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:32.914-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:32.914-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:32.914-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:32.914-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:32.914-04:00] INFO		Value of total :0
+[2019-04-25T11:06:32.914-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:32.914-04:00] INFO		Value of results :
+[2019-04-25T11:06:32.914-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:32.915-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FITEM
+[2019-04-25T11:06:32.915-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FITEM
+[2019-04-25T11:06:32.915-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:32.915-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:32.915-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:32.915-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:32.915-04:00] REQUEST BODY		
+[2019-04-25T11:06:32.915-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:32.915-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:33.045-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:33.046-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:33.175-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:33.175-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:33.175-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:33.175-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:33.175-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FITEM&only=_id
+[2019-04-25T11:06:33.175-04:00] REQUEST BODY		
+[2019-04-25T11:06:33.175-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:33.175-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:33.445-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:33.445-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:33.711-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:33.711-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:33.711-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:33.711-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:33.711-04:00] INFO		Value of total :0
+[2019-04-25T11:06:33.711-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:33.711-04:00] INFO		Value of results :
+[2019-04-25T11:06:33.711-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:33.712-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FITEMFINALSTATUS
+[2019-04-25T11:06:33.712-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FITEMFINALSTATUS
+[2019-04-25T11:06:33.712-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:33.712-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:33.712-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:33.712-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:33.712-04:00] REQUEST BODY		
+[2019-04-25T11:06:33.712-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:33.712-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:33.841-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:33.841-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:33.970-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:33.970-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:33.970-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:33.971-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:33.971-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FITEMFINALSTATUS&only=_id
+[2019-04-25T11:06:33.971-04:00] REQUEST BODY		
+[2019-04-25T11:06:33.971-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:33.971-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:34.236-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:34.236-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:34.505-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:34.505-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:34.505-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:34.505-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:34.505-04:00] INFO		Value of total :0
+[2019-04-25T11:06:34.505-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:34.505-04:00] INFO		Value of results :
+[2019-04-25T11:06:34.505-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:34.506-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FEPCISEVENT
+[2019-04-25T11:06:34.506-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FEPCISEVENT
+[2019-04-25T11:06:34.506-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:34.506-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:34.506-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:34.506-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:34.506-04:00] REQUEST BODY		
+[2019-04-25T11:06:34.506-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:34.506-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:34.634-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:34.634-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:34.763-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:34.763-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:34.763-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:34.764-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:34.764-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FEPCISEVENT&only=_id
+[2019-04-25T11:06:34.764-04:00] REQUEST BODY		
+[2019-04-25T11:06:34.764-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:34.764-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:35.030-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:35.030-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:35.295-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:35.295-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:35.295-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:35.295-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:35.295-04:00] INFO		Value of total :0
+[2019-04-25T11:06:35.295-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:35.295-04:00] INFO		Value of results :
+[2019-04-25T11:06:35.295-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:35.295-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FDISPOSITION
+[2019-04-25T11:06:35.295-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FDISPOSITION
+[2019-04-25T11:06:35.295-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:35.295-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:35.295-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:35.295-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:35.296-04:00] REQUEST BODY		
+[2019-04-25T11:06:35.296-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:35.296-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:35.423-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:35.424-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:35.552-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:35.552-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:35.552-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:35.553-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:35.553-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FDISPOSITION&only=_id
+[2019-04-25T11:06:35.553-04:00] REQUEST BODY		
+[2019-04-25T11:06:35.553-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:35.553-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:35.821-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:35.821-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:36.086-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:36.087-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:36.087-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:36.087-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:36.087-04:00] INFO		Value of total :0
+[2019-04-25T11:06:36.087-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:36.087-04:00] INFO		Value of results :
+[2019-04-25T11:06:36.087-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:36.087-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FBIZSTEP
+[2019-04-25T11:06:36.087-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FBIZSTEP
+[2019-04-25T11:06:36.087-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:36.087-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:36.087-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:36.087-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:36.087-04:00] REQUEST BODY		
+[2019-04-25T11:06:36.088-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:36.088-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:36.328-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:36.328-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:36.458-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:36.458-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:36.458-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:36.458-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:36.458-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FBIZSTEP&only=_id
+[2019-04-25T11:06:36.458-04:00] REQUEST BODY		
+[2019-04-25T11:06:36.458-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:36.459-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:36.723-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:36.723-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:36.991-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:36.991-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:36.991-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:36.991-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:36.991-04:00] INFO		Value of total :0
+[2019-04-25T11:06:36.991-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:36.991-04:00] INFO		Value of results :
+[2019-04-25T11:06:36.991-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:36.992-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FBIZTRANSACTIONTYPE
+[2019-04-25T11:06:36.992-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FBIZTRANSACTIONTYPE
+[2019-04-25T11:06:36.992-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:36.992-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:36.992-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:36.992-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:36.992-04:00] REQUEST BODY		
+[2019-04-25T11:06:36.992-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:36.992-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:37.120-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:37.120-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:37.249-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:37.250-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:37.250-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:37.250-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:37.250-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FBIZTRANSACTIONTYPE&only=_id
+[2019-04-25T11:06:37.250-04:00] REQUEST BODY		
+[2019-04-25T11:06:37.250-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:37.250-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:37.516-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:37.516-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:37.780-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:37.780-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:37.780-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:37.780-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:37.780-04:00] INFO		Value of total :0
+[2019-04-25T11:06:37.780-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:37.780-04:00] INFO		Value of results :
+[2019-04-25T11:06:37.780-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:37.780-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FITEMFINALSTATUS
+[2019-04-25T11:06:37.780-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FITEMFINALSTATUS
+[2019-04-25T11:06:37.781-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:37.781-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:37.781-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:37.781-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:37.781-04:00] REQUEST BODY		
+[2019-04-25T11:06:37.781-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:37.781-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:37.909-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:37.909-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:38.038-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:38.038-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:38.038-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:38.038-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:38.039-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FITEMFINALSTATUS&only=_id
+[2019-04-25T11:06:38.039-04:00] REQUEST BODY		
+[2019-04-25T11:06:38.039-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:38.039-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:38.306-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:38.306-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:38.570-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:38.570-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:38.570-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:38.570-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:38.570-04:00] INFO		Value of total :0
+[2019-04-25T11:06:38.570-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:38.570-04:00] INFO		Value of results :
+[2019-04-25T11:06:38.570-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:38.571-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FATTRIBUTE
+[2019-04-25T11:06:38.571-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FATTRIBUTE
+[2019-04-25T11:06:38.571-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:38.571-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:38.571-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:38.571-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:38.571-04:00] REQUEST BODY		
+[2019-04-25T11:06:38.571-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:38.571-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:38.700-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:38.700-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:38.829-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:38.829-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:38.829-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:38.829-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:38.829-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FATTRIBUTE&only=_id
+[2019-04-25T11:06:38.829-04:00] REQUEST BODY		
+[2019-04-25T11:06:38.829-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:38.829-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:39.095-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:39.096-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:39.360-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:39.360-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:39.360-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:39.360-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:39.360-04:00] INFO		Value of total :0
+[2019-04-25T11:06:39.360-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:39.360-04:00] INFO		Value of results :
+[2019-04-25T11:06:39.360-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:39.361-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FDEPARTMENTZONEMAPPING
+[2019-04-25T11:06:39.361-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FDEPARTMENTZONEMAPPING
+[2019-04-25T11:06:39.361-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:39.361-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:39.361-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:39.361-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:39.361-04:00] REQUEST BODY		
+[2019-04-25T11:06:39.361-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:39.361-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:39.489-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:39.489-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:39.619-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:39.619-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:39.619-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:39.619-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:39.619-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FDEPARTMENTZONEMAPPING&only=_id
+[2019-04-25T11:06:39.620-04:00] REQUEST BODY		
+[2019-04-25T11:06:39.620-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:39.620-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:39.883-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:39.883-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:40.147-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:40.148-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:40.148-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:40.148-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:40.148-04:00] INFO		Value of total :0
+[2019-04-25T11:06:40.148-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:40.148-04:00] INFO		Value of results :
+[2019-04-25T11:06:40.148-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:40.148-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FPRODUCT
+[2019-04-25T11:06:40.148-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FPRODUCT
+[2019-04-25T11:06:40.148-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:40.148-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:40.148-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:40.148-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:40.148-04:00] REQUEST BODY		
+[2019-04-25T11:06:40.148-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:40.148-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:40.277-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:40.277-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:40.406-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:40.406-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:40.406-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:40.406-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:40.407-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FPRODUCT&only=_id
+[2019-04-25T11:06:40.407-04:00] REQUEST BODY		
+[2019-04-25T11:06:40.407-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:40.407-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:40.691-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:40.691-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:40.964-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:40.965-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:40.965-04:00] RESPONSE BODY		
+{
+    "total":"1",
+    "results":[
+        {
+            "treeLevel":"1",
+            "hierarchyCode":">RED",
+            "fqnBase":">RED",
+            "_id":"2.9.4143998208902188"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:40.965-04:00] INFO		getting : total from json :
+{
+    "total":"1",
+    "results":[
+        {
+            "treeLevel":"1",
+            "hierarchyCode":">RED",
+            "fqnBase":">RED",
+            "_id":"2.9.4143998208902188"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:40.965-04:00] INFO		Value of total :1
+[2019-04-25T11:06:40.965-04:00] INFO		getting : results from json :
+{
+    "total":"1",
+    "results":[
+        {
+            "treeLevel":"1",
+            "hierarchyCode":">RED",
+            "fqnBase":">RED",
+            "_id":"2.9.4143998208902188"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:40.965-04:00] INFO		Value of results :[
+{
+    "treeLevel":"1",
+    "hierarchyCode":">RED",
+    "fqnBase":">RED",
+    "_id":"2.9.4143998208902188"
+}
+
+
+
+
+
+[2019-04-25T11:06:40.965-04:00] INFO		getting : _id from json :
+{
+    "treeLevel":"1",
+    "hierarchyCode":">RED",
+    "fqnBase":">RED",
+    "_id":"2.9.4143998208902188"
+}
+
+
+
+
+
+[2019-04-25T11:06:40.965-04:00] INFO		Value of _id :2.9.4143998208902188
+[2019-04-25T11:06:40.965-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:40.965-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:40.965-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:40.965-04:00] REQUEST BODY		
+[2019-04-25T11:06:40.965-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:40.965-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:41.093-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:41.094-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:41.222-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:41.222-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:41.223-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:41.223-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:41.223-04:00] REQUEST		DELETE http://34.226.203.33:80/riot-core-services/api/thing/2.9.4143998208902188
+[2019-04-25T11:06:41.223-04:00] REQUEST		DELETE 
+[2019-04-25T11:06:41.223-04:00] REQUEST		Header: token : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:41.473-04:00] INFO		Response Code 204
+[2019-04-25T11:06:41.473-04:00] INFO		Response Message No Content
+[2019-04-25T11:06:41.473-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:41.473-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FSTORE
+[2019-04-25T11:06:41.473-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FSTORE
+[2019-04-25T11:06:41.473-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:41.473-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:41.473-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:41.473-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:41.473-04:00] REQUEST BODY		
+[2019-04-25T11:06:41.473-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:41.474-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:41.602-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:41.602-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:41.732-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:41.732-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:41.732-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:41.732-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:41.733-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FSTORE&only=_id
+[2019-04-25T11:06:41.733-04:00] REQUEST BODY		
+[2019-04-25T11:06:41.733-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:41.733-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:42.017-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:42.017-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:42.284-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:42.284-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:42.284-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:42.285-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:42.285-04:00] INFO		Value of total :0
+[2019-04-25T11:06:42.285-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:42.285-04:00] INFO		Value of results :
+[2019-04-25T11:06:42.285-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:42.285-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FFIXTURE
+[2019-04-25T11:06:42.285-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FFIXTURE
+[2019-04-25T11:06:42.285-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:42.285-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:42.285-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:42.285-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:42.285-04:00] REQUEST BODY		
+[2019-04-25T11:06:42.285-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:42.285-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:42.414-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:42.414-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:42.545-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:42.545-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:42.545-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:42.545-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:42.546-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FFIXTURE&only=_id
+[2019-04-25T11:06:42.546-04:00] REQUEST BODY		
+[2019-04-25T11:06:42.546-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:42.546-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:42.815-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:42.815-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:43.081-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:43.081-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:43.081-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:43.081-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:43.081-04:00] INFO		Value of total :0
+[2019-04-25T11:06:43.081-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:43.081-04:00] INFO		Value of results :
+[2019-04-25T11:06:43.081-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:43.082-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FRULE
+[2019-04-25T11:06:43.082-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FRULE
+[2019-04-25T11:06:43.082-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:43.082-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:43.082-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:43.082-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:43.082-04:00] REQUEST BODY		
+[2019-04-25T11:06:43.082-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:43.082-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:43.210-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:43.210-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:43.339-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:43.339-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:43.339-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:43.339-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:43.340-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FRULE&only=_id
+[2019-04-25T11:06:43.340-04:00] REQUEST BODY		
+[2019-04-25T11:06:43.340-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:43.340-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:43.603-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:43.603-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:43.870-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:43.870-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:43.870-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:43.870-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:43.870-04:00] INFO		Value of total :0
+[2019-04-25T11:06:43.870-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:43.871-04:00] INFO		Value of results :
+[2019-04-25T11:06:43.871-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:43.871-04:00] INFO		MD5) Start Query : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FLOCATION
+[2019-04-25T11:06:43.871-04:00] INFO		MD5) Completed Query Converted : name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FLOCATION
+[2019-04-25T11:06:43.871-04:00] HOOKS		Cleaning Entities ....
+[2019-04-25T11:06:43.871-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:43.871-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:43.871-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:43.871-04:00] REQUEST BODY		
+[2019-04-25T11:06:43.871-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:43.871-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:44-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:44-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:44.129-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:44.129-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:44.129-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:44.130-04:00] INFO		Is token active ?: true
+
+
+
+
+[2019-04-25T11:06:44.130-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FLOCATION&only=_id
+[2019-04-25T11:06:44.130-04:00] REQUEST BODY		
+[2019-04-25T11:06:44.130-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:44.130-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:44.400-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:44.400-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:44.664-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:44.664-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:44.664-04:00] RESPONSE BODY		
+{
+    "total":"0",
+    "results":[
+        ""
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:44.664-04:00] INFO		getting : total from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:44.664-04:00] INFO		Value of total :0
+[2019-04-25T11:06:44.664-04:00] INFO		getting : results from json :
+{
+    "total":"0",
+    "results":""
+}
+
+
+
+
+
+[2019-04-25T11:06:44.664-04:00] INFO		Value of results :
+[2019-04-25T11:06:44.664-04:00] HOOKS		Cleaned Entities....
+[2019-04-25T11:06:44.665-04:00] HOOKS		Completed Scenario......
+Thu Apr 25 11:06:44 BOT 2019) *** Test Case Title : [ AS CLIENT, I CAN TEST TRANSFER OUT PR PROCESS WITH AUTO_ASN_ON IN SHOPCX ] Status : [*** FAILED ***]
+########## CLEAN ENVIRONMENT - INFORMATION ########## 
+#HOOK ERROR - GET Ids 
+
+
+
+
+End Point: GET http://34.226.203.33:80/riot-core-services/api/things/?pageSize=25&where=name%3D%2FZAUTOSHOPCX%2F%7CserialNumber%3D%2FZAUTOSHOPCX%2F%7CRetail_BusinessGroupCode.value%3D%2FZAUTOSHOPCX%2F%7CRetail_Extension.value%3D%2FZAUTOSHOPCX%2F%20&fullyQualifiedThingTypeCode=%2FRED%2FCATEGORY&only=_id
+Response body:
+{
+    "message":"Thing Type cannot be determined from 'fullyQualifiedThingTypeCode' param."
+}
+
+
+
+
+
+[2019-04-25T11:06:44.667-04:00] INFO		Command path : /home/augusto/vizix/vizix/vizix-qa-automation/out/test/resources/files/scriptsMigration command : sh getLogs.sh /home/ubuntu/vizix-compose/
+[2019-04-25T11:06:44.693-04:00] INFO		Command Executed sh getLogs.sh /home/ubuntu/vizix-compose/
+Response code : 400
+embedding
+[2019-04-25T11:06:44.694-04:00] HOOKS		Starting Scenario......As client, I can test transfer out PR process with auto_asn_on in shopCX
+[2019-04-25T11:06:44.694-04:00] HOOKS		Feature : SHOPCX   STATUS API   TRANSFER OUT   PR PROCESS WITH AUTO ASN ON
+[2019-04-25T11:06:44.695-04:00] HOOKS		Scenario : As client, I can test transfer out PR process with auto_asn_on in shopCX
+[2019-04-25T11:06:44.695-04:00] HOOKS		[@StatusAPI, @ShopCX, @SemiFinalStatus]
+[2019-04-25T11:06:44.695-04:00] HOOKS		@SHOPCX
+*********** Configuration ********************
+Mosquito,Is using mosquitto?	:true
+Services Protocol	:	http://
+Services Host	:	34.226.203.33
+Services Port	:	80
+AleBridge Host	:	34.226.203.33
+AleBridge API key	:	7B4BCCDC
+AleBridge	:	9091
+Mosquitto Host	:	34.226.203.33
+Mosquitto SSL and Authentication Host	:	34.226.203.33
+Mosquitto SSL Host	:	34.226.203.33
+Mosquitto Authentication Host	:	34.226.203.33
+Mosquitto SSL and Authentication Port	:	8884
+Mosquitto SSL Port	:	8885
+Mosquitto Authentication Port	:	8886
+Mongo Host	:	34.226.203.33
+Mongo User	:	admin
+Mongo Password	:	control123!
+MySql Host	:	34.226.203.33
+EnvironmentType	:	docker
+Kafka Host 	:	34.226.203.33:9092
+Retailer Host 	:	
+Supplier Host 	:	
+Carrier Host 	:	
+Google Credential 	:	null
+Rate Initial Numb er Blinks 	:	10
+Rate Time To Execute 	:	600
+Rate Increase Number Blinks 	:	10
+Rate Error Range 	:	2.0
+Rate Allowed QUE Time (minutes) 	:	3
+Grid Browser Version 	:	Edge 17.0
+Grid OS Version 	:	Windows 10
+*********************************************
+[2019-04-25T11:06:44.695-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : false
+[2019-04-25T11:06:44.695-04:00] INFO		Check if the token to send the request is active
+
+
+
+
+[2019-04-25T11:06:44.695-04:00] REQUEST		GET http://34.226.203.33:80/riot-core-services/api/license/group
+[2019-04-25T11:06:44.695-04:00] REQUEST BODY		
+[2019-04-25T11:06:44.695-04:00] REQUEST		Authentication : token
+[2019-04-25T11:06:44.695-04:00] REQUEST		Authentication Value : c27370add55ddad4b208699bd126d31ac88a8bf12caf2fa74799f628a60364d6
+[2019-04-25T11:06:44.823-04:00] REQUEST		Header > Content-Range:0-999/1247
+[2019-04-25T11:06:44.824-04:00] REQUEST		Header > Accept-Range:Fixture:1000
+[2019-04-25T11:06:44.952-04:00] RESPONSE		Response Code : 200
+[2019-04-25T11:06:44.952-04:00] RESPONSE		Response Message : OK
+[2019-04-25T11:06:44.952-04:00] RESPONSE BODY		
+{
+    "total":"6",
+    "results":[
+        {
+            "archived":"false",
+            "code":"PREMISE_DESTINATION",
+            "treeLevel":"3",
+            "creationTime":"1556194467146",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_DESTINATION",
+            "name":"PREMISE_DESTINATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"4"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_NEW",
+            "treeLevel":"3",
+            "creationTime":"1556194509025",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_NEW",
+            "name":"PREMISE_NEW",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"6"
+        },
+        {
+            "archived":"false",
+            "code":"PREMISE_SOURCE",
+            "treeLevel":"3",
+            "creationTime":"1556194488164",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>PREMISE_SOURCE",
+            "name":"PREMISE_SOURCE",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"5"
+        },
+        {
+            "archived":"false",
+            "code":"RED",
+            "treeLevel":"2",
+            "creationTime":"1556193184741",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">RED",
+            "name":"RED",
+            "fqnBase":"",
+            "description":"",
+            "id":"2"
+        },
+        {
+            "archived":"false",
+            "code":"RED_PREMISE_AUTOMATION",
+            "treeLevel":"3",
+            "creationTime":"1556194443444",
+            "createdBy":"REDroot1",
+            "hierarchyCode":">RED>RED_PREMISE_AUTOMATION",
+            "name":"RED_PREMISE_AUTOMATION",
+            "fqnBase":">RED",
+            "description":"null",
+            "id":"3"
+        },
+        {
+            "archived":"false",
+            "code":"root",
+            "treeLevel":"1",
+            "creationTime":"1556193099238",
+            "createdBy":"sysconfig",
+            "hierarchyCode":">root",
+            "name":"root",
+            "fqnBase":"",
+            "description":"",
+            "id":"1"
+        }
+        
+    ]
+    
+}
+
+
+
+
+
+[2019-04-25T11:06:44.953-04:00] INFO		Is token active ?: true
+[2019-04-25T11:06:44.953-04:00] INFO		Kill Instance Authentication
+[2019-04-25T11:06:44.953-04:00] INFO		EncodedBytes: UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:44.953-04:00] INFO		ShopCX -> http://34.226.203.33:80
+[2019-04-25T11:06:44.953-04:00] INFO		ShopCX ->isUsingAutomationPopDb false
+[2019-04-25T11:06:44.953-04:00] INFO		ShopCX ->isBasicAuthForShopCX true
+[2019-04-25T11:06:44.953-04:00] INFO		ShopCX ->BasicAuthValueShopCX Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
+[2019-04-25T11:06:44.954-04:00] INFO		Creating Connection with Vizix
+[2019-04-25T11:06:44.954-04:00] INFO		Scenarios outline - test :with Location level zone
+[2019-04-25T11:06:44.955-04:00] INFO		MD5) Start Query : /code/zone/ZONE_SOURCE
+[2019-04-25T11:06:44.955-04:00] INFO		MD5) Completed Query Converted : /code/zone/ZONE_SOURCE
+[2019-04-25T11:06:44.955-04:00] INFO		MD5) Start Query : /statemachine-api-configuration/rest/configuration/locations/code/zone/ZONE_SOURCE
+[2019-04-25T11:06:44.955-04:00] INFO		MD5) Completed Query Converted : /statemachine-api-configuration/rest/configuration/locations/code/zone/ZONE_SOURCE
+[2019-04-25T11:06:44.955-04:00] INFO		MD5) Start Query : 
+[2019-04-25T11:06:44.955-04:00] INFO		MD5) Completed Query Converted : 
+[2019-04-25T11:06:44.955-04:00] INFO		***** GetAuthenticationKey : isBasicAuthForShopCX : true
+
+
+
+
+[2019-04-25T11:06:44.956-04:00] REQUEST		GET http://34.226.203.33:80/statemachine-api-configuration/rest/configuration/locations/code/zone/ZONE_SOURCE
+[2019-04-25T11:06:44.956-04:00] REQUEST BODY		
+[2019-04-25T11:06:44.956-04:00] REQUEST		Authentication : Authorization
+[2019-04-25T11:06:44.956-04:00] REQUEST		Authentication Value : Basic UkVEcm9vdDE6Q29udHJvbDEyMyE=
